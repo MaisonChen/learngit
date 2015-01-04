@@ -1,0 +1,108 @@
+--------- beginning of /dev/log/main
+D//home/ut/android_release/led_daemon/main.c(  908): [led_daemon] recv  [2] ... 
+I/System.out(  319): PinyinIME:onKeyDown23
+I/System.out(  319): PinyinIME:onKeyUp:23
+D/audio_hw_primary(   93): select_output_device 0x40002
+--------- beginning of /dev/log/system
+I/ActivityManager(  172): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.ethan.localserver cmp=com.ethan.localserver/.LocalServerActivity} from pid 344
+I/ActivityManager(  172): Start proc com.ethan.localserver for activity com.ethan.localserver/.LocalServerActivity: pid=1885 uid=10008 gids={3003, 1015, 1023}
+D/dalvikvm(  172): GC_CONCURRENT freed 489K, 12% free 8206K/9223K, paused 2ms+4ms
+E/PhonePolicy( 1885): Could not preload class for phone policy: com.android.internal.policy.impl.PhoneWindow$ContextMenuCallback
+D/TextLayoutCache( 1885): Using debug level: 0 - Debug Enabled: 0
+I/LocalServer( 1885): onCreate
+I/LocalServer( 1885): status:0
+I/LocalServer( 1885): switch:0
+D/dalvikvm( 1885): GC_CONCURRENT freed 173K, 6% free 5337K/5639K, paused 0ms+0ms
+I/dalvikvm( 1885): Could not find method android.net.ethernet.EthernetManager.getInstance, referenced from method com.samplee.dlna.DlnaServiceMgr.getLocalIpAddress
+W/dalvikvm( 1885): VFY: unable to resolve static method 125: Landroid/net/ethernet/EthernetManager;.getInstance ()Landroid/net/ethernet/EthernetManager;
+D/dalvikvm( 1885): VFY: replacing opcode 0x71 at 0x00c6
+I/LocalServer( 1885): [DlnaServiceMgr] GetInstance() instance=null
+I/DlnaServiceMgr( 1885): set mNetWifi=false
+I/LocalServer( 1885): [DlnaServiceMgr]StartService() begin..
+I/UpnpServiceImpl( 1885): >>> Starting UPnP service...
+I/UpnpServiceImpl( 1885): Using configuration: com.samplee.dlna.EthAndroidUpnpServiceConfiguration
+I/Router  ( 1885): Creating Router: org.teleal.cling.transport.RouterImpl
+I/NetworkAddressFactory( 1885): Discovered  network interface: lo
+I/NetworkAddressFactory( 1885): Discovered  network interface: eth0
+I/NetworkAddressFactory( 1885): Discovered WiFi network interface: eth0
+I/StreamServer( 1885): Created socket (for receiving TCP streams) on: /10.63.230.158:53399
+I/MulticastReceiver( 1885): Creating wildcard socket (for receiving multicast datagrams) on port: 1900
+I/MulticastReceiver( 1885): Joining multicast group: /239.255.255.250:1900 on network interface: eth0
+I/DatagramIO( 1885): Creating bound socket (for datagram input/output) on: /10.63.230.158
+I/UpnpServiceImpl( 1885): <<< UPnP service started successfully
+I/LocalServer( 1885): getLocalIpAddress
+I/LocalServer( 1885): getSavedConfig()
+I/EthernetManager( 1885): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@40ffbc00
+E/EthernetService(  172): getSavedConfig
+D/dalvikvm( 1885): GC_CONCURRENT freed 381K, 9% free 5394K/5895K, paused 0ms+1ms
+E/EthernetService(  172): ifName: eth0 ipaddr:10.63.230.158 netmask:255.255.255.0 getway:10.63.230.1 dns:10.50.2.22
+I/LocalServer( 1885): mEthInfo is null:false
+I/LocalServer( 1885): ip:10.63.230.158
+D/dalvikvm( 1885): GC_CONCURRENT freed 388K, 8% free 5491K/5959K, paused 1ms+1ms
+I/Process (  172): Sending signal. PID: 1885 SIG: 3
+I/dalvikvm( 1885): threadid=3: reacting to signal 3
+I/dalvikvm( 1885): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm( 1885): GC_CONCURRENT freed 200K, 6% free 5712K/6023K, paused 1ms+1ms
+D/dalvikvm( 1885): GC_CONCURRENT freed 494K, 10% free 5759K/6343K, paused 1ms+1ms
+V/Ethan-MediaServer( 1885): MediaServer device created: 
+V/Ethan-MediaServer( 1885): friendly name: UD Android mt8658
+V/Ethan-MediaServer( 1885): manufacturer: ud
+V/Ethan-MediaServer( 1885): model: Ethan
+V/Ethan-MediaServer( 1885): Started Http Server on port 8192
+D/FileHelper( 1885): delete filePath: /data/data/com.ethan.localserver/files/rootFolder/Audio
+D/FileHelper( 1885): delete filePath: /data/data/com.ethan.localserver/files/rootFolder/Video
+D/FileHelper( 1885): delete filePath: /data/data/com.ethan.localserver/files/rootFolder/Image
+D/FileHelper( 1885): delete filePath: /data/data/com.ethan.localserver/files/rootFolder
+E/LoadContentThread( 1885): clearWebFolder cost : 5
+I/LocalServer( 1885): getLocalIpAddress
+I/LocalServer( 1885): start load content
+I/LocalServer( 1885): getSavedConfig()
+E/EthernetService(  172): getSavedConfig
+E/EthernetService(  172): ifName: eth0 ipaddr:10.63.230.158 netmask:255.255.255.0 getway:10.63.230.1 dns:10.50.2.22
+I/LocalServer( 1885): mEthInfo is null:false
+I/LocalServer( 1885): ip:10.63.230.158
+D/dalvikvm( 1885): GC_CONCURRENT freed 389K, 9% free 5820K/6343K, paused 1ms+1ms
+D/dalvikvm( 1885): GC_FOR_ALLOC freed 202K, 10% free 5795K/6407K, paused 12ms
+W/dalvikvm( 1885): threadid=18: thread exiting with uncaught exception (group=0x40a551f8)
+D/dalvikvm( 1885): GC_CONCURRENT freed 325K, 8% free 5922K/6407K, paused 1ms+1ms
+W/CursorWrapperInner( 1885): Cursor finalized without prior close()
+D/dalvikvm( 1885): GC_CONCURRENT freed 492K, 10% free 5919K/6535K, paused 1ms+1ms
+I/Process (  172): Sending signal. PID: 1885 SIG: 3
+I/dalvikvm( 1885): threadid=3: reacting to signal 3
+I/dalvikvm( 1885): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm( 1885): GC_CONCURRENT freed 460K, 10% free 5919K/6535K, paused 1ms+1ms
+D/dalvikvm( 1885): GC_CONCURRENT freed 495K, 10% free 5919K/6535K, paused 1ms+4ms
+D/dalvikvm( 1885): GC_CONCURRENT freed 462K, 10% free 5925K/6535K, paused 1ms+1ms
+D/dalvikvm( 1885): GC_CONCURRENT freed 464K, 10% free 5929K/6535K, paused 1ms+1ms
+I/Process (  172): Sending signal. PID: 1885 SIG: 3
+I/dalvikvm( 1885): threadid=3: reacting to signal 3
+D/dalvikvm( 1885): GC_CONCURRENT freed 470K, 9% free 5970K/6535K, paused 1ms+2ms
+I/dalvikvm( 1885): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm( 1885): GC_CONCURRENT freed 530K, 10% free 5969K/6599K, paused 1ms+1ms
+D/dalvikvm( 1885): GC_FOR_ALLOC freed 164K, 10% free 5969K/6599K, paused 13ms
+D/dalvikvm( 1885): GC_FOR_ALLOC freed 125K, 10% free 6001K/6599K, paused 14ms
+I/dalvikvm-heap( 1885): Grow heap (frag case) to 5.943MB for 16400-byte allocation
+D/dalvikvm( 1885): GC_FOR_ALLOC freed <1K, 10% free 6017K/6663K, paused 15ms
+D/dalvikvm( 1885): GC_FOR_ALLOC freed 145K, 10% free 5998K/6663K, paused 14ms
+I/LocalServer( 1885): [DlnaServiceMgr] StartService() end..
+D/libEGL  ( 1885): loaded /system/lib/egl/libGLES_android.so
+D/libEGL  ( 1885): loaded /system/lib/egl/libEGL_mali.so
+D/libEGL  ( 1885): loaded /system/lib/egl/libGLESv1_CM_mali.so
+D/libEGL  ( 1885): loaded /system/lib/egl/libGLESv2_mali.so
+I/SurfaceTexture(   90): Current total buffer count= 3, mSynchronousMode=1
+I/SurfaceTexture(   90): Query min-undequeue size=1
+D/OpenGLRenderer( 1885): Enabling debug mode 0
+W/InputManagerService(  172): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41118750 (uid=10039 pid=344)
+I/ActivityManager(  172): Displayed com.ethan.localserver/.LocalServerActivity: +2s16ms
+D/dalvikvm( 1885): GC_CONCURRENT freed 360K, 9% free 6077K/6663K, paused 1ms+2ms
+D/dalvikvm( 1885): GC_CONCURRENT freed 359K, 8% free 6149K/6663K, paused 1ms+2ms
+D/dalvikvm( 1885): GC_CONCURRENT freed 488K, 9% free 6232K/6791K, paused 1ms+3ms
+I/Process ( 1885): Sending signal. PID: 1885 SIG: 9
+I/WindowManager(  172): WIN DEATH: Window{411c9cc0 com.ethan.localserver/com.ethan.localserver.LocalServerActivity paused=false}
+I/ActivityManager(  172): Process com.ethan.localserver (pid 1885) has died.
+W/ActivityManager(  172): Scheduling restart of crashed service com.ethan.localserver/.LocalDlnaService in 5000ms
+W/ActivityManager(  172): Force removing ActivityRecord{412f9138 com.ethan.localserver/.LocalServerActivity}: app died, no saved state
+I/WindowManager(  172): WIN DEATH: Window{41249348 Toast paused=false}
+W/InputManagerService(  172): Got RemoteException sending setActive(false) notification to pid 1885 uid 10008
+W/NotificationService(  172): Object died trying to hide notification android.app.ITransientNotification$Stub$Proxy@411583d0 in package com.ethan.localserver
+W/ActivityManager(  172): setProcessForeground called on unknown pid: 1885
